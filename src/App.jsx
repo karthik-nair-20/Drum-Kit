@@ -68,7 +68,7 @@ function App(){
       <h1>Drumkit</h1>
       <div className="drums">
       {sounds.map((sound,i) => (
-        <Drum key = {i} letter={sound.key} name ={sound.name} sound ={sound.sound} />
+        <Drum key = {i} letter={sound.key} sound ={sound.sound} />
       ))}
       </div>
     </div>

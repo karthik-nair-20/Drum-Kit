@@ -22,7 +22,7 @@ function Drum(prop){
   return (
     <div className= "drum" onClick={play}>
       <div className="key">{prop.letter}</div>
-      <div className="name">{prop.name}</div>
+      {/* <div className="name">{prop.name}</div> */}
     </div>
   )
 
